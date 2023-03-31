@@ -28,7 +28,6 @@ jobs:
           user: nfisherman
           template: classic
           base: activity, community, repositories, metadata
-          config_display: columns
           config_timezone: America/Chicago
           plugin_gists: yes
           plugin_isocalendar: yes
@@ -44,7 +43,3 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: starred
-          plugin_topics_sort: stars
